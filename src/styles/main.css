@@ -1,0 +1,338 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.h2 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+.swiper-scrollbar {
+  bottom: 0;
+}
+.swiper-scrollbar-drag {
+  background-color: #A5A5A5;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000000;
+  background-color: #A5A5A5;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.navbar1 {
+  position: relative;
+  margin-left: 88px;
+  align-items: center;
+}
+.navbar1__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: start;
+  align-items: start;
+}
+.navbar1__list {
+  padding-right: 1.5rem;
+  list-style: none;
+}
+.navbar1__link {
+  color: #ffffff;
+  font-size: 14px;
+}
+.navbar1__link_select {
+  border-radius: 31px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.navbar1__link_nodecoration {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.navbar1__link_gray {
+  color: #99938A;
+}
+
+.navbar2 {
+  position: relative;
+  margin-left: 88px;
+}
+.navbar2__lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar2__list {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  list-style: none;
+}
+.navbar2__list_categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 148px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: #FADE4B;
+}
+.navbar2__link {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.navbar2__link_categories {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+.navbar2__link_photomarket {
+  font-weight: 500;
+  font-size: 26px;
+  text-decoration: none;
+}
+.navbar2__item {
+  width: 33.3333333333%;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+.navbar2__title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+
+.textarea {
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  width: 459px;
+  height: 56px;
+  border-radius: 60px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.product__item {
+  width: 33.3333333333%;
+  height: 280px;
+  margin: 32px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #EFEFEF;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.product-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.product-top__name {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+}
+.product-top__price {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.product-top__discount {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 29px;
+}
+.product-top__discount_small {
+  font-size: 16px;
+}
+.product-top__discount_white {
+  color: #FFFCFC;
+}
+.product-top__disc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  background-color: #FADE4B;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 82px;
+  left: 148px;
+  rotate: -10deg;
+}
+.product-top__disc_red {
+  background-color: #FB000F;
+}
+.product-top__img {
+  position: absolute;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header {
+  height: 168px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.section-1 {
+  margin-top: 31px;
+  margin-bottom: 1rem;
+}
+
+.banner {
+  padding: 3rem;
+  margin-bottom: 30px;
+  color: #ffffff;
+  border-radius: 8px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/image 61.png");
+  width: 1120px;
+  height: 360px;
+}
+.banner__title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  margin-top: 48px;
+  margin-left: 84px;
+  margin-bottom: 22px;
+}
+.banner__description {
+  opacity: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 84px;
+  margin-bottom: 42px;
+}
+.banner__btn {
+  margin-left: 84px;
+  border: solid 2px #FADE4B;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 28px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FADE4B;
+}
+
+.section__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.section__block_price {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.section__block_price--old {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 50%;
+  text-decoration: line-through;
+}
+.section__block_item {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  opacity: 50%;
+}/*# sourceMappingURL=main.css.map */
