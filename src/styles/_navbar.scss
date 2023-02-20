@@ -82,6 +82,8 @@
     }
 
     &__item{
+        @include flex();
+        flex-direction: column;
         width: calc(100% / 3);
         padding: $p-2;
         text-align: center;
@@ -106,7 +108,12 @@
     width: 459px;
     height: 56px;
     border-radius: 60px;
-    padding-top: $p-1;
+    border: none;
     padding-left: $p-1;
-}
 
+    &::after{
+        content: '../img/search.png';
+        content: 'Текст, которого почему-то не видно';
+        color: red;
+    }
+}

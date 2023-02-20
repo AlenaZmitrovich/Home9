@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *:before,
 *:after {
@@ -167,6 +168,10 @@ body {
   text-decoration: none;
 }
 .navbar2__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   width: 33.3333333333%;
   padding: 2rem;
   text-align: center;
@@ -188,8 +193,13 @@ body {
   width: 459px;
   height: 56px;
   border-radius: 60px;
-  padding-top: 1rem;
+  border: none;
   padding-left: 1rem;
+}
+.textarea::after {
+  content: "../img/search.png";
+  content: "Текст, которого почему-то не видно";
+  color: red;
 }
 
 .product {
@@ -335,4 +345,8 @@ body {
   font-size: 14px;
   color: #000000;
   opacity: 50%;
+}
+.section__block_img {
+  height: 148px;
+  width: 152px;
 }/*# sourceMappingURL=main.css.map */
