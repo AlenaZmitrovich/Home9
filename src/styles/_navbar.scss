@@ -99,7 +99,7 @@
     }
 }
 
-.textarea{
+.input__after{
     background-color: $color-gray;
     opacity: 60%;
     font-weight: $font-w-400;
@@ -110,10 +110,10 @@
     border-radius: 60px;
     border: none;
     padding-left: $p-1;
+    position: relative;
 
     &::after{
         content: '../img/search.png';
-        content: 'Текст, которого почему-то не видно';
-        color: red;
+        position: absolute;
     }
 }

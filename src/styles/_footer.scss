@@ -1,0 +1,38 @@
+.footer{
+    @include flex();
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: $color-black;
+    padding-top: $p-3;
+    padding-bottom: $p-3;
+
+    &__column-1{
+        @include flex();
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__link{
+        font-weight: $font-w-400;
+        font-size: $font-16;
+        color: $color-white;
+        text-decoration: none;
+        margin-top: $m-1;
+        line-height: 23.58px;
+    }
+
+    &__contacts_information{
+        font-weight: $font-w-700;
+        font-size: $font-16;
+    }
+
+    &__end{
+        @include flex();
+        flex-direction: column;
+        margin-top: $m-5;
+    }
+
+    &__pays{
+        margin-top: $m-0-5;
+    }
+}
