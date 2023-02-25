@@ -111,6 +111,7 @@
     border: none;
     padding-left: $p-1;
     position: relative;
+    opacity: 99%;
 
     &::after{
         content: '../img/search.png';
